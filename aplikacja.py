@@ -38,7 +38,7 @@ x = (N+H_m)*cos(fA)*cos(lA);
 y = (N+H_m)*cos(fA)*sin(lA);
 
 z = (N*(1-e2)+H_m)*sin(fA);
-print("współrzędne kartezjanskie dla miejsca wylotu:")
+print("współrzędne kartezjańskie dla miejsca wylotu:")
 print("x:", round(x,3))
 print("y:", round(y,3))
 print("z:", round(z,3))
@@ -131,6 +131,8 @@ k = input('Podaj klasę lotu:\n -klasa ekonomiczna\n -pierwsza klasa\n -biznes k
 w_podreczna = int(input('Podaj wagę twojego bagażu podręcznego: '))
 w_dodatkowa = int(input('Podaj wagę twojego bagażu dodatkowego: '))
 
+#biznes klasa
+
 if k == 'biznes klasa':
     podstawa = 300
     if w_dodatkowa > 32:
@@ -142,6 +144,8 @@ if k == 'biznes klasa':
     if w_podreczna > 8:
         cena_biletu = cena_na_osobe + 360 + podstawa
         print(' Twój bagaż podręczny przekracza 8 kg! Cena biletu wzrosła do',round(cena_biletu,2),'zł')
+        
+#klasa ekonomiczna
          
 if k == 'klasa ekonomiczna':
     podstawa = 100
