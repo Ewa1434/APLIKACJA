@@ -134,24 +134,24 @@ w_dodatkowa = int(input('Podaj wagę twojego bagażu dodatkowego: '))
 if k == 'biznes klasa':
     podstawa = 300
     if w_dodatkowa > 32:
-        print('Twój bagaż dodatkowy przekracza dopuszcalną wagę (max 32kg)! Zmniejsz wagę bagażu. ')
+        print('Twój bagaż dodatkowy przekracza dopuszcalną wagę (max 32 kg)! Zmniejsz wagę bagażu. ')
     if w_dodatkowa <= 32:
-        print('Waga bagażu dodatkowego dopuszczalna!')
+        print('Waga bagażu dodatkowego dopuszczalna !')
     if w_podreczna <= 8:
         cena_biletu = cena_na_osobe + podstawa
     if w_podreczna > 8:
         cena_biletu = cena_na_osobe + 360 + podstawa
-        print('Twój bagaż podręczny przekracza 8kg! Cena biletu wzrosła do',round(cena_biletu,2),'zł')
+        print('Twój bagaż podręczny przekracza 8 kg! Cena biletu wzrosła do',round(cena_biletu,2),'zł')
          
 if k == 'klasa ekonomiczna':
     podstawa = 100
     if w_dodatkowa > 23:
-        print('Twój bagaż dodatkowy przekracza dopuszcalną wagę (max 23kg)! Zmniejsz wagę bagażu. ')
+        print('Twój bagaż dodatkowy przekracza dopuszcalną wagę (max 23 kg)! Zmniejsz wagę bagażu. ')
     if w_dodatkowa <= 23:
-        print('Waga bagażu dodatkowego dopuszczalna!')
+        print('Waga bagażu dodatkowego dopuszczalna !')
     if w_podreczna <= 8:
         cena_biletu = cena_na_osobe + podstawa
     if w_podreczna > 8:
         cena_biletu = cena_na_osobe + 360 + podstawa
-        print('Twój bagaż podręczny przekracza 8kg! Cena biletu wzrosła do',round(cena_biletu,2),'zł')
+        print('Twój bagaż podręczny przekracza 8 kg! Cena biletu wzrosła do',round(cena_biletu,2),'zł')
         
