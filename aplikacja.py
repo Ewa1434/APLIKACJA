@@ -154,3 +154,4 @@ if k == 'klasa ekonomiczna':
     if w_podreczna > 8:
         cena_biletu = cena_na_osobe + 360 + podstawa
         print('Twój bagaż podręczny przekracza 8kg! Cena biletu wzrosła do',round(cena_biletu,2),'zł')
+        
